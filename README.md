@@ -16,8 +16,9 @@ It simulates a real-world ML pipeline — from raw text input to prediction — 
 
 ---
 
-## 📁 Folder Structure
+### 📁 Project Folder Structure
 
+```
 resume_role_classifier/
 ├── resume_data/ # Sample .txt resumes by role
 │ ├── data_scientist/
@@ -30,7 +31,7 @@ resume_role_classifier/
 ├── new_resume.txt # Test input file
 ├── requirements.txt # Project dependencies
 └── README.md # This documentation
-
+```
 
 ---
 
@@ -119,6 +120,8 @@ The folder name serves as the classification label.
 
 Want a full walkthrough?
 📚 Read the article on Medium
+
+
 https://medium.com/@sabeerkhan1603/resume-role-classifier-how-i-built-an-nlp-pipeline-to-categorize-resumes-f7b5b0a44bcd
 
 
