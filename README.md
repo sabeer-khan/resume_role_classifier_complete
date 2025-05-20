@@ -1,4 +1,4 @@
-![score](https://github.com/user-attachments/assets/37876bdd-0261-4b02-a13c-96e9f7e8fde2)# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resumes
+# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resumes
 
 A complete NLP + Machine Learning project to automatically classify resumes into job roles using Python, spaCy, and scikit-learn.
 
