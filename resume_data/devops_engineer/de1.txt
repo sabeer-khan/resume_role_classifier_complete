@@ -1,0 +1,1 @@
+DevOps Engineer experienced in AWS, Kubernetes, Docker, and CI/CD pipelines.
