@@ -1,4 +1,4 @@
-# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resumes
+![score](https://github.com/user-attachments/assets/37876bdd-0261-4b02-a13c-96e9f7e8fde2)# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resumes
 
 A complete NLP + Machine Learning project to automatically classify resumes into job roles using Python, spaCy, and scikit-learn.
 
@@ -58,24 +58,33 @@ Predicted Role: frontend_developer
 
 📊 Model Overview
 
-    Preprocessing with spaCy: tokenization, lemmatization, stopword & punctuation removal
+### 🧠 Project Pipeline
 
-    Feature extraction using TfidfVectorizer
+- 🔹 **Preprocessing with spaCy**  
+  Tokenization, lemmatization, stopword & punctuation removal
 
-    Multiclass classification using LogisticRegression
+- 🔹 **Feature extraction using TfidfVectorizer**  
+  Converts text into meaningful numerical vectors
 
-    Evaluation via classification_report from scikit-learn
+- 🔹 **Multiclass classification using LogisticRegression**  
+  Simple, effective classifier for resume role prediction
+
+- 🔹 **Evaluation via classification_report from scikit-learn**  
+  Outputs precision, recall, F1-score, and accuracy
+
 
 Example results:
 
+### 📊 Classification Report
 
-                 precision    recall  f1-score   support
+| Class              | Precision | Recall | F1-Score |
+|--------------------|-----------|--------|----------|
+| Data Scientist     | 1.00      | 0.83   | 0.91     |
+| DevOps Engineer    | 0.75      | 1.00   | 0.86     |
+| Frontend Developer | 1.00      | 1.00   | 1.00     |
 
- data_scientist       1.00      0.83      0.91
-devops_engineer       0.75      1.00      0.86
-frontend_developer    1.00      1.00      1.00
+**Overall Accuracy:** `91%`
 
-       accuracy                           0.91
 
 📄 Sample Resume File
 
@@ -97,15 +106,14 @@ The folder name serves as the classification label.
 
 🛠️ Tech Stack
 
-    Python 3.10+
+### 🛠️ Tech Stack
 
-    spaCy
+- 🐍 **Python 3.10+**
+- 🧠 **spaCy** – for text preprocessing (tokenization, lemmatization, etc.)
+- 📊 **scikit-learn** – for vectorization, training, and evaluation
+- 🧮 **TF-IDF** – to convert text into feature vectors
+- 🎯 **Logistic Regression** – used as the classification model
 
-    scikit-learn
-
-    TF-IDF
-
-    Logistic Regression
 
 📖 Medium Article
 
