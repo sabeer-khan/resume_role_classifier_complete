@@ -1,4 +1,4 @@
-# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resume
+# 💼 Resume Role Classifier: How I Built an NLP Pipeline to Categorize Resumes
 
 A complete NLP + Machine Learning project to automatically classify resumes into job roles using Python, spaCy, and scikit-learn.
 
